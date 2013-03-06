@@ -1,0 +1,23 @@
+<div data-role="header" data-position="fixed">
+	<a href="#new_group" data-icon="plus" class="back ui-btn-right">New</a>
+    <a href="#" id="back" data-icon="back" class="back ui-btn-left">Back</a>
+    <h1>My Groups</h1>
+
+    <div class="ui-bar ui-bar-c">
+		<input type="search" class="search-query" placeholder="Search"/>
+	</div>
+</div>
+
+<div id="groups_menu" style="padding:12px">
+	<center>
+		<img src="img/home-icon.png" width="128" height="128">
+	    <ul data-role="listview" data-inset="true" style="width: 250px; margin-top: 20px;">
+	        <li><a href="#new_group">Create new group...</a></li>
+	        <li><a href="#groups" id="btn_all_groups">All groups...</a></li>
+    	</ul>
+	</center>
+</div>
+
+<div data-role="content">
+    <ul data-role="listview" id="groupsList" style="display: none;"></ul>
+</div>
